@@ -1,4 +1,16 @@
 header{
-    min-height: 50px;
     background-color: #2C3E50;
+}
+
+/* .nav-links{
+    text-align: end;
+} */
+
+.jumbo-section{
+    background-color:#1ABC9C ;
+}
+
+.jumbo-content{
+    background-color: red;
+    min-height: 400px;
 }
