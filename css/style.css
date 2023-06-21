@@ -14,3 +14,35 @@ header{
     background-color: red;
     min-height: 400px;
 }
+
+.col-card{
+    min-height: 200px;
+    background-color: blue;
+}
+
+.about-section{
+    background-color: #1ABC9C;
+}
+
+.col-5-content{
+    background-color: green;
+    height: 300px;
+}
+
+.col-12-content{
+    background-color: grey;
+    height: 400px;
+}
+
+.top-footer{
+    background-color: #3A546D;
+}
+.bottom-footer{
+    background-color: #2C3E50;
+}
+
+
+.col-4-content{
+    height: 200px;
+    background-color: grey;
+}
