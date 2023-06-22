@@ -1,10 +1,10 @@
 header{
     background-color: #2C3E50;
 }
-
-/* .nav-links{
-    text-align: end;
-} */
+a{
+    color: white;
+    text-decoration: none;
+}
 
 section{
     padding: 50px;
@@ -31,15 +31,16 @@ section{
     border-bottom: 2px solid black;
 }
 
-
-
 .about-section{
     background-color: #1ABC9C;
 }
 
-
-
-
+.my-btn-style{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
 
 .top-footer{
     background-color: #3A546D;
@@ -48,9 +49,15 @@ section{
     background-color: #2C3E50;
 }
 
+.my-form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color:#2C3E50;
+    outline: 0;
+    box-shadow: none;
+}
 
-
-a{
+.contact-btn{
     color: white;
-    text-decoration: none;
+    background-color:#1ABC9C ;
 }
