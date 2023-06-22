@@ -43,9 +43,25 @@ section{
 }
 
 .top-footer{
+    padding: 60px;
     background-color: #3A546D;
 }
+
+.social-icon-style{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border: 1px solid white;
+    height: 35px;
+    width: 35px;
+    
+    border-radius: 50%;
+
+}
 .bottom-footer{
+    padding: 40px;
     background-color: #2C3E50;
 }
 
