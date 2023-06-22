@@ -7,7 +7,7 @@ header{
 } */
 
 section{
-    padding: 40px;
+    padding: 50px;
 }
 
 .jumbo-section{
@@ -18,31 +18,28 @@ section{
     max-width: 200px;
 }
 
-.white-row{
+.icon-row{
     display: inline-block;
     height: 10px;
     width: 100px;
-    border-bottom: 2px solid white;
 }
 
-.col-card{
-    min-height: 200px;
-    background-color: blue;
+.icon-row.white-row{
+    border-bottom: 2px solid white;
 }
+.icon-row.black-row{
+    border-bottom: 2px solid black;
+}
+
+
 
 .about-section{
     background-color: #1ABC9C;
 }
 
-.col-5-content{
-    background-color: green;
-    height: 300px;
-}
 
-.col-12-content{
-    background-color: grey;
-    height: 400px;
-}
+
+
 
 .top-footer{
     background-color: #3A546D;
@@ -52,10 +49,6 @@ section{
 }
 
 
-.col-4-content{
-    height: 200px;
-    background-color: grey;
-}
 
 a{
     color: white;
