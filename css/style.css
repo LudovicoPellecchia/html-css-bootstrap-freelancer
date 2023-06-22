@@ -6,13 +6,23 @@ header{
     text-align: end;
 } */
 
+section{
+    padding: 40px;
+}
+
 .jumbo-section{
     background-color:#1ABC9C ;
 }
 
-.jumbo-content{
-    background-color: red;
-    min-height: 400px;
+.jumbo-img{
+    max-width: 200px;
+}
+
+.white-row{
+    display: inline-block;
+    height: 10px;
+    width: 100px;
+    border-bottom: 2px solid white;
 }
 
 .col-card{
@@ -45,4 +55,9 @@ header{
 .col-4-content{
     height: 200px;
     background-color: grey;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
